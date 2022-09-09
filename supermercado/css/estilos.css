@@ -1,0 +1,87 @@
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(252, 252, 35);
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+.menu .logo a img{
+    width: 100px;
+}
+
+.enlaces ul{
+    list-style: none;
+    display: flex;
+}
+.enlaces ul li{
+    margin-right: 10px;
+}
+.enlaces ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.enlaces ul li a:hover{
+    border-bottom: 1px solid rgb(243, 90, 90);
+    color: antiquewhite;
+
+}
+.iconos i,
+.iconos svg{
+    margin-right: 5px;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+
+.iconos i:hover,
+.iconos svg:hover{
+    color: rgb(219, 204, 204);
+    background-color: black;
+    font-size: 20px;
+
+}
+/* estilos principal */
+
+.principal{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/Grupo-Éxito-1280x720-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+    display: flex;
+    justify-content:flex-start;
+   
+    
+}
+
+.principal .con-texto{
+    width: 400px;
+    height: 200px;
+   text-align: center;
+}
+.principal .con-texto h1{
+    font-size: 90px;
+    color: rgb(254, 254, 254);
+   
+   
+}
+.principal .con-texto p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.principal .con-texto a{
+    font-size: 20px;
+    background-color: blue;
+    color: aqua;
+    padding: 7px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+
+
+
