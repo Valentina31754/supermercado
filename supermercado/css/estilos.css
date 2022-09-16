@@ -130,23 +130,27 @@ h1,h2,h3,h4,h5,h6{
     height: auto;
     width: 100%;
     display: flex;
+
     flex-direction: column;
     align-items: center;
     }
 
     .con-productos{
-        width: 100%;
+        width: 65%;
         height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 .con-productos .targeta-pro{
     width: 400px;
-    height: 500px;
+    height: auto;
     border-radius: 10px;
     border: 1px solid black;
 }
 .targeta-pro img{
     width: 100%;
-    height: 200px;
+    height: auto;
 
 }
 .targeta-pro .contenido{
