@@ -116,7 +116,10 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
-.titulo h2{
+.titulo h2,
+.productos.titulo-pro,
+.servicios.titulo-ser
+{
     font-size: 50px;
     font-weight:bold;
     color: yellow;
@@ -126,16 +129,17 @@ h1,h2,h3,h4,h5,h6{
     font-size: 50px;
 }
 /*sesion productos */
-.productos{
+.productos,
+.servicios{
     height: auto;
     width: 100%;
     display: flex;
-
     flex-direction: column;
     align-items: center;
     }
 
-    .con-productos{
+    .con-productos,
+    .con-servicios{
         width: 65%;
         height: auto;
         display: flex;
@@ -186,10 +190,59 @@ h1,h2,h3,h4,h5,h6{
     text-decoration: none;
     
 }
+/*servicios*/
+.con-servicios{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+}
+.servicios .servicio-1,
+.servicios .servicio-2{
+    display: flex;
+    width: 100%;
+    height: auto;
 
+}
+.servicio-1 img,
+.servicio-2 img,
+.servicio-1 .con-texto
+.servicio-2 .con-texto{
+    width: 50%;
+    height: auto;
 
+}
 
+.servicio-1 .con-texto h3,
+.servicio-2 .con-texto h3{
+    font-size: 45px;
+    color: yellow;
+    font-weight: bold;
 
+}
+.servicio-1 .con-texto p,
+.servicio-2 .con-texto p{
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+.servicio-1 .con-texto a,
+.servicio-2 .con-texto a{
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    background-color: rgb(184, 151, 216);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.servicio-1 .con-texto a:hover,
+.servicio-2 .con-texto a:hover{
+     
+    color:rgb(179, 67, 67);
+    background-color: rgb(229, 225, 233);
+    border:2px solid black;
+    
 
 
 
